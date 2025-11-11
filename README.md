@@ -1,4 +1,4 @@
-```
+
 🧠 Creator–Brand Matching Engine (AI Recommendation System)
 ```
 A production-style AI-powered matching system that connects brands with the most relevant creators using semantic embeddings, vector search, and ranking models.
