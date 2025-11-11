@@ -1,0 +1,119 @@
+# ==========================================================
+# PYTHON / FASTAPI / ML PROJECT GITIGNORE
+# ==========================================================
+
+# --- Python cache & build ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+MANIFEST
+*.manifest
+*.spec
+
+# --- Virtual environment ---
+.venv/
+env/
+venv/
+ENV/
+env.bak/
+.venv.bak/
+
+# --- IDE / Editor specific ---
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# --- Environment & Config files ---
+.env
+*.env
+.env.local
+.env.*.local
+
+# --- Logs ---
+logs/
+*.log
+nohup.out
+
+# --- Data & temporary files ---
+*.csv~
+*.tmp
+*.bak
+*.old
+*.zip
+*.tar.gz
+*.db
+*.sqlite
+*.npy
+*.npz
+
+# --- ML / Model / Checkpoints ---
+mlruns/
+*.pt
+*.pth
+*.ckpt
+*.h5
+*.pkl
+*.joblib
+*.onnx
+*.bin
+*.model
+*.index
+*.jsonl
+
+# --- FAISS / Embedding Index ---
+.faiss/
+*.index
+*.npy
+
+# --- Notebooks & Jupyter ---
+.ipynb_checkpoints/
+*.ipynb~
+*.nbconvert.ipynb
+
+# --- OS generated files ---
+.DS_Store
+ehthumbs.db
+Icon?
+Thumbs.db
+
+# --- Docker ---
+*.pid
+*.seed
+*.pid.lock
+docker-compose.override.yml
+
+# --- Testing / Coverage ---
+.coverage
+htmlcov/
+.tox/
+.pytest_cache/
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.cache/
+
+# --- Temporary generated API docs ---
+openapi.json
+swagger.json
+redoc.html
+
+# --- Backup / Misc ---
+*.bak
+*.backup
+*.orig
+*.rej
+
+# ==========================================================
+# END OF GITIGNORE
+# ==========================================================
